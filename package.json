@@ -1,0 +1,16 @@
+{
+  "name": "news-letter-mail-chip-api",
+  "version": "1.0.0",
+  "description": "This is a project using Mail Chip API",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "Vikas Kumar",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}

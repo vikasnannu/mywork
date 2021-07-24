@@ -33,7 +33,7 @@ app.post("/", (req,res) => {
     };
 
     const jsonData = JSON.stringify(data);
-    const url = "https://us6.api.mailchimp.com/3.0/lists/4e1d1ec07f1";
+    const url = "https://us6.api.mailchimp.com/3.0/lists/4e1d1ec07f";
 
     const options = {
         method: "POST",
@@ -52,8 +52,6 @@ app.post("/", (req,res) => {
             console.log(JSON.parse(data));
         });
     });
-
-    
 
     request.write(jsonData);
     request.end();
